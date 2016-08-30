@@ -1,0 +1,788 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA50Texb3I40GznEH8zMBevwAAAAACAAAAAAAQZgAAAAEAACAAAACMGBLr68gCGTEMJOToGj87BdgbJlLE3dYpzbM5CHbwEQAAAAAOgAAAAAIAACAAAACN/eSiq/5QsAesC8WB8/deZEgjunOoomdL3Cd5a/aU/CAAAAABByzKZ8ZRN8tYF3nzqb0suKeinrDGAwjE7bMym2+yhEAAAACyCPW+NS6V+IbwqQ+F+5rYITKsp2qbJKjvBTF+5MTiJfCh0FSjRwc0sBYV8ZMlK2eLDvsAIRh3f2qCmk9EjkfH</EncryptedPassword>
+    <_PublishTargetUrl>ftp://omisapps.niu.edu</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>11/19/2015 22:34:36</publishTime>
+    </File>
+    <File Include="Account/AddPhoneNumber.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Account/Confirm.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Account/Forgot.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Account/Lockout.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>09/05/2015 21:45:26</publishTime>
+    </File>
+    <File Include="Account/Manage.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Account/ManageLogins.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Account/ManagePassword.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Account/OpenAuthProviders.ascx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>09/05/2015 21:45:26</publishTime>
+    </File>
+    <File Include="Account/RegisterExternalLogin.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Account/ResetPassword.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Account/ResetPasswordConfirmation.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Account/TwoFactorAuthenticationSignIn.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Account/VerifyPhoneNumber.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Admin/Tickets.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="AssessYourSkills/FlowDiagram.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="AssessYourSkills/Home.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="AssessYourSkills/Home.html">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/Main.aspx">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/AboutUS.jpeg">
+      <publishTime>10/17/2015 15:42:16</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/AboutUS.png">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/CONTACT US.png">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/css/layout.css">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/css/reset.css">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/css/responsive.css">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/css/style.css">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/css/zerogrid.css">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/Flow Diagram.PNG">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/css/font-awesome.css">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/css/font-awesome.min.css">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/less/bordered-pulled.less">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/less/core.less">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/less/fixed-width.less">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/less/font-awesome.less">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/less/icons.less">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/less/larger.less">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/less/list.less">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/less/mixins.less">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/less/path.less">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/less/rotated-flipped.less">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/less/spinning.less">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/less/stacked.less">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/less/variables.less">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/scss/font-awesome.scss">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/scss/_core.scss">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/scss/_fixed-width.scss">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/scss/_icons.scss">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/scss/_larger.scss">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/scss/_list.scss">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/scss/_mixins.scss">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/scss/_path.scss">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/scss/_spinning.scss">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/scss/_stacked.scss">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/font-awesome/scss/_variables.scss">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/homepage.png">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/bg.gif">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/bg2.gif">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/caption_bg.png">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/icon1.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/icon2.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/icon3.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/icon4.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/icon5.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/icon6.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/logo.png">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/marker_1.gif">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/menu_bg.png">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/opacity_50_black.png">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/page1_img1.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/page1_img2.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/page2_img1.png">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/page2_img2.png">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/page2_img3.png">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/page2_img4.png">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/page2_img5.png">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/page2_img6.png">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/page3_img1.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/page3_img2.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/page3_img3.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/page3_img4.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/page3_img5.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/page3_img6.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/images/Thumbs.db">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/img/downloads-bg.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/img/intro-bg.jpg">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/img/map-marker.png">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/index.html">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/Amaranth_400.font.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/atooltip.jquery.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/bootstrap.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/bootstrap.min.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/css3-mediaqueries.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/cufon-replace.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/cufon-yui.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/grayscale.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/html5.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/jquery-1.5.2.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/jquery.easing.min.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/jquery.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/PIE.htc">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/PIE.php">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/script.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/js/scroll.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/less/grayscale.less">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/less/mixins.less">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/less/variables.less">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/Login/config.rb">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/Login/css/normalize.css">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/Login/css/style.css">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/Login/index.html">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/Login/js/index.js">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/Login/scss/style.scss">
+      <publishTime>11/19/2015 22:34:39</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/My Dashboard.png">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/Registration Page.png">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/RESULT PAGE.png">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/Sample Question Page.png">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/MockUps/SkillAssessmentUseCase.png">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/UseCaseDiagram.aspx">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="AssessYourSkills/WireFrames.aspx">
+      <publishTime>11/19/2015 22:34:38</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.bootstrap.dll">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>11/19/2015 22:34:52</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>11/19/2015 22:34:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>11/19/2015 22:34:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>11/19/2015 22:34:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>11/19/2015 22:34:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>11/19/2015 22:34:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>11/19/2015 22:34:53</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>11/19/2015 22:34:53</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>11/19/2015 22:34:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>11/19/2015 22:34:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>11/19/2015 22:34:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>11/19/2015 22:34:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>11/19/2015 22:34:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>11/19/2015 22:34:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>11/19/2015 22:34:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>11/19/2015 22:34:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>11/19/2015 22:34:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>11/19/2015 22:34:53</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>11/19/2015 22:34:53</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>11/19/2015 22:34:55</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/19/2015 22:34:58</publishTime>
+    </File>
+    <File Include="bin/OMIS675_Lab0.dll">
+      <publishTime>11/23/2015 16:04:10</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/19/2015 22:34:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>11/19/2015 22:34:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>11/19/2015 22:34:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>11/19/2015 22:34:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>11/19/2015 22:34:55</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>11/19/2015 22:34:55</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>11/19/2015 22:34:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>11/19/2015 22:34:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>11/19/2015 22:34:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>11/19/2015 22:34:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>11/19/2015 22:34:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>11/19/2015 22:34:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>11/19/2015 22:34:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>11/19/2015 22:34:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>11/19/2015 22:34:52</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>11/19/2015 22:34:59</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>11/19/2015 22:34:36</publishTime>
+    </File>
+    <File Include="Contact.aspx">
+      <publishTime>11/19/2015 22:34:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>11/19/2015 23:30:39</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>11/19/2015 22:34:41</publishTime>
+    </File>
+    <File Include="Content/IMG_20150731_072226.jpg">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="Content/jquery-ui1.css">
+      <publishTime>11/19/2015 22:34:41</publishTime>
+    </File>
+    <File Include="Content/jquery12345.css">
+      <publishTime>11/19/2015 22:34:41</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/19/2015 22:34:41</publishTime>
+    </File>
+    <File Include="Create an Assessment.aspx">
+      <publishTime>11/23/2015 15:59:04</publishTime>
+    </File>
+    <File Include="DataEntry.aspx">
+      <publishTime>11/19/2015 22:34:36</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/19/2015 22:34:36</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/19/2015 22:34:41</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="Geo.aspx">
+      <publishTime>11/19/2015 22:34:36</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/19/2015 22:34:36</publishTime>
+    </File>
+    <File Include="Google.aspx">
+      <publishTime>11/19/2015 22:34:36</publishTime>
+    </File>
+    <File Include="HD.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="index.htm">
+      <publishTime>09/18/2015 09:48:04</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/Assignment.aspx">
+      <publishTime>11/19/2015 22:34:41</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/CaseDiagram.aspx">
+      <publishTime>09/30/2015 23:20:42</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/download.jpg">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/FlowDiagram.aspx">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/FlowDiagram.png">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/HD.aspx">
+      <publishTime>10/07/2015 13:59:04</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/Mockup.png">
+      <publishTime>09/30/2015 13:16:15</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/Mockup1.png">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/Mockup2.png">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/Mockup3.png">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/Mockup4.png">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/Mockup5.png">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/Test.aspx">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/Use case Diag.png">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="MyITHelpDesk/WireFrames.aspx">
+      <publishTime>11/19/2015 22:34:42</publishTime>
+    </File>
+    <File Include="OMIS652/AccessYourSkills.htm">
+      <publishTime>11/19/2015 22:34:49</publishTime>
+    </File>
+    <File Include="OMIS652/Home.html">
+      <publishTime>11/19/2015 22:34:49</publishTime>
+    </File>
+    <File Include="OMIS652/index.htm">
+      <publishTime>09/17/2015 19:16:58</publishTime>
+    </File>
+    <File Include="OMIS652/index.html">
+      <publishTime>11/19/2015 22:34:49</publishTime>
+    </File>
+    <File Include="OMIS652/MyDescription.htm">
+      <publishTime>11/19/2015 22:34:49</publishTime>
+    </File>
+    <File Include="OMIS652/Myresume.htm">
+      <publishTime>09/17/2015 19:15:17</publishTime>
+    </File>
+    <File Include="OMIS652/MyResume.html">
+      <publishTime>11/19/2015 22:34:49</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="ScaleUp/Login.aspx">
+      <publishTime>11/19/2015 22:34:49</publishTime>
+    </File>
+    <File Include="ScaleUp/MyDashboard.aspx">
+      <publishTime>11/23/2015 16:03:41</publishTime>
+    </File>
+    <File Include="ScaleUp/Register.aspx">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/DetailsView.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Focus.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/GridView.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Menu.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MenuStandards.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjax.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/SmartNav.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/TreeView.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebForms.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebParts.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebUIValidation.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>11/19/2015 22:34:50</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>10/21/2015 15:23:37</publishTime>
+    </File>
+    <File Include="Site.Mobile.Master">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="TopPage.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Video.aspx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="ViewSwitcher.ascx">
+      <publishTime>11/19/2015 22:34:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/23/2015 11:53:50</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

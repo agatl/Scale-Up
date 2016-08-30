@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMIS675_Lab0", "OMIS675_Lab0\OMIS675_Lab0.csproj", "{567D1D59-3692-43C0-92B8-726C7BF6F98B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{567D1D59-3692-43C0-92B8-726C7BF6F98B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567D1D59-3692-43C0-92B8-726C7BF6F98B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567D1D59-3692-43C0-92B8-726C7BF6F98B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567D1D59-3692-43C0-92B8-726C7BF6F98B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://scaleup.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OMIS675_Lab0\\OMIS675_Lab0.csproj
+		SccProjectName1 = OMIS675_Lab0
+		SccLocalPath1 = OMIS675_Lab0
+	EndGlobalSection
+EndGlobal
