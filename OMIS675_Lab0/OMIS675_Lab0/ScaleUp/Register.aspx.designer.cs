@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OMIS675_Lab0.Account {
-    
-    
-    public partial class Register {
-        
+namespace OMIS675_Lab0.Account
+{
+
+
+    public partial class Register
+    {
+
         /// <summary>
         /// ErrorMessage control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Literal ErrorMessage;
-        
+
         /// <summary>
         /// tbfirstName control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbfirstName;
-        
+
         /// <summary>
         /// tbLastName control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbLastName;
-        
+
         /// <summary>
         /// tbEmail control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbEmail;
-        
+
         /// <summary>
         /// tbPassword control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbPassword;
-        
+
         /// <summary>
         /// tbConfirmPassword control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbConfirmPassword;
-        
+
         /// <summary>
         /// tbaddressLine1 control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbaddressLine1;
-        
+
         /// <summary>
         /// tbAddressLine2 control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbAddressLine2;
-        
+
         /// <summary>
         /// tbCity control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbCity;
-        
+
         /// <summary>
         /// ddlState control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlState;
-        
+
         /// <summary>
         /// tbPin control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbPin;
-        
+
         /// <summary>
         /// RegularExpressionValidator1 control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
-        
+
         /// <summary>
         /// tbPhone control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbPhone;
-        
+
         /// <summary>
         /// RegularExpressionValidator2 control.
         /// </summary>
@@ -137,25 +139,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator2;
-        
-        /// <summary>
-        /// chbxSkills control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList chbxSkills;
-        
-        /// <summary>
-        /// ScaleupDataSource control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource ScaleupDataSource;
-        
+
         /// <summary>
         /// CustomValidator1 control.
         /// </summary>
@@ -164,7 +148,7 @@ namespace OMIS675_Lab0.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CustomValidator CustomValidator1;
-        
+
         /// <summary>
         /// btnRegister control.
         /// </summary>

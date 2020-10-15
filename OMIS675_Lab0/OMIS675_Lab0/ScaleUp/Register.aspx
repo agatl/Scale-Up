@@ -2,7 +2,7 @@
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <script type="text/javascript">
-    function ValidateCheckBoxList(sender, args) {
+   <%-- function ValidateCheckBoxList(sender, args) {
         var checkBoxList = document.getElementById("<%=chbxSkills.ClientID %>");
         var checkboxes = checkBoxList.getElementsByTagName("input");
         var isValid = false;
@@ -14,7 +14,7 @@
         }
         args.IsValid = isValid;
     }
-</script>
+</script>--%>
     <%--   </div>--%>
     <p class="text-danger">
        <br />
@@ -184,9 +184,9 @@
             <div class="form-group" style="width:100%">
                 <div style="float:left;overflow:hidden;width:10%">
                 <asp:Label runat="server" AssociatedControlID="chbxSkills" CssClass="col-md-2 control-label">Skills</asp:Label></div>
-           <div style="width: 200px; height: 200px; float: left; -ms-overflow-y: scroll;">
-                <asp:CheckBoxList ID="chbxSkills" runat="server" DataSourceID="ScaleupDataSource" DataTextField="skill_name" DataValueField="skill_id"></asp:CheckBoxList>
-                <asp:SqlDataSource ID="ScaleupDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:ScaleupConnectionString %>" SelectCommand="SELECT [skill_id], [skill_name] FROM [Skills] ORDER BY [skill_name]"></asp:SqlDataSource>
+           <div style="width: 200px; height: 200px; float: left;">
+                <%--<asp:CheckBoxList ID="chbxSkills" runat="server" DataSourceID="ScaleupDataSource" DataTextField="skill_name" DataValueField="skill_id"></asp:CheckBoxList>
+                <asp:SqlDataSource ID="ScaleupDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:ScaleupConnectionString %>" SelectCommand="SELECT [skill_id], [skill_name] FROM [Skills] ORDER BY [skill_name]"></asp:SqlDataSource>--%>
                
            </div>
                 <br />

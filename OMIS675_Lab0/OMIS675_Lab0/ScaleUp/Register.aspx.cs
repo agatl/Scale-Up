@@ -17,11 +17,11 @@ namespace OMIS675_Lab0.Account
     {
         protected void CreateUser_Click(object sender, EventArgs e)
         {
-            //List<string> selectedValues = null;
-            List<string> selectedValues = chbxSkills.Items.Cast<ListItem>()
-            .Where(li => li.Selected)
-            .Select(li => li.Value)
-            .ToList();
+            List<string> selectedValues = null;
+            //List<string> selectedValues = chbxSkills.Items.Cast<ListItem>()
+            //.Where(li => li.Selected)
+            //.Select(li => li.Value)
+            //.ToList();
             DatabaseLayer db = new DatabaseLayer();
             int returnValue=db.RegisterUser(tbfirstName.Text.ToString().Trim(),tbLastName.Text.ToString().Trim(), tbEmail.Text.ToString().Trim(), UserDetails.Encrypt(tbPassword.Text.ToString().Trim()), tbPhone.Text.ToString().Trim(), tbPin.Text.ToString().Trim(), tbCity.Text.ToString().Trim(), tbaddressLine1.Text.ToString().Trim(), tbAddressLine2.Text.ToString().Trim(), ddlState.SelectedValue.ToString().Trim(), selectedValues);
             Session["UserId"] = returnValue;
