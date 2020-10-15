@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron" style="background-image:url(~/Content/IMG_20150731_072226.jpg)">
-        <h2>OMIS 675-Internet Computing Applications Lab </h2>
+        <h2>Scale Up </h2>
         <p>Abhinav Kumar Gatla</p>
         <p>
            <asp:Image ID="Image2" runat="server" Height="312px" ImageUrl="~/Content/IMG_20150731_072226.jpg" Width="417px" /></p>

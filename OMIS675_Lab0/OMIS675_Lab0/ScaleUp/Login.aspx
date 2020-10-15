@@ -56,8 +56,10 @@ min-height:100%;
                         </div>
                     </div>
                 </div>
+                <h2 style="color:Red;">Sorry No Access to database connection... registration wont work. will get 404 error.</h2>
                 <p> 
-                    <asp:HyperLink runat="server" ID="RegisterHyperLink" href="Register.aspx" ViewStateMode="Disabled" >Register as a new user</asp:HyperLink>
+                    
+                    <asp:HyperLink runat="server" ID="RegisterHyperLink" href="../Scaleup/Register.aspx" ViewStateMode="Disabled" >Register as a new user</asp:HyperLink>
                 </p>
                 <p>
                     <%-- Enable this once you have account confirmation enabled for password reset functionality
